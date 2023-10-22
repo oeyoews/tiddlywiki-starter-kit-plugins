@@ -1,0 +1,13 @@
+{
+    "description": "Basic client-server edition",
+    "plugins": [
+        "tiddlywiki/filesystem",
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/pluginlibrary",
+        "tiddlywiki/markdown",
+        "tiddlywiki/highlight"
+    ],
+    "themes": [
+        "tiddlywiki/vanilla"
+    ]
+}

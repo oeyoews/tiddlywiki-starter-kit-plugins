@@ -1,0 +1,71 @@
+title: $:/core/ui/ViewTemplate/subtitle
+tags: $:/tags/ViewTemplate
+
+\define tid() $:/plugins/oeyoews/tiddlywiki-tiddler-info/config
+
+<$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+<div class="tc-subtitle text-center my-2 print:hidden">
+<$list filter="[all[current]has[creator]]">
+    <$avatar inline link="https://github.com/oeyoews" />
+{{!!creator}}&nbsp;
+</$list>
+<$list filter="[all[current]has[created]]">
+<$text text={{{[<tid>get[ocreated]else[👉]]}}} /> created <$view field="created" format="date" template="YYYY/0MM/0DD"/>&nbsp;&nbsp;
+</$list>
+<$list filter="[all[current]has[modified]]">
+<$text text={{{[<tid>get[omodified]else[📝]]}}} /> modified <$view field="modified" format="relativedate" />&nbsp;&nbsp;
+</$list>
+<$list filter="[all[current]has[description]]">
+<$text text={{{[<tid>get[odescription]else[✅]]}}} />&nbsp;{{!!description}} &nbsp;&nbsp;
+</$list>
+
+<!-- <span class="text-violet-500"> -->
+<!-- <$list filter="[<currentTiddler>!is[system]!days:created[-300]] -[days:modified[-300]]" > -->
+<!---->
+<!-- <$list filter="[all[current]!is[system]has[created]]"> -->
+<!-- 🤖  此条目创建于 <$view field="created" format="date" template="YYYY/0MM/0DD"/> -->
+<!-- </$list> -->
+<!-- <$list filter="[all[current]!is[system]has[modified]]"> -->
+<!-- , 修改于 <$view field="modified" format="relativedate" /> -->
+<!-- </$list> -->
+<!-- , 内容可能已经不够准确， 请酌情参考 ⚠️ &nbsp; -->
+<!-- </$list> -->
+<!-- </span> -->
+
+<!-- local manage -->
+<!-- https have bug, will creat http: tid -->
+<!-- GettingStarted not work filter -->
+<$list filter="[all[current]!is[system]!is[binary]]">
+<<opublish>>
+<!-- <<AddTags>> -->
+</$list>
+
+<$set name='type' value={{!!type}}>
+<% if [<type>match[text/markdown]] %>
+	<$iconify icon="skill-icons:markdown-dark" />
+<% elseif [<type>match[text/vnd.tiddlywiki]] %>
+<$iconify icon="simple-icons:tiddlywiki" />
+<% elseif [<type>match[application/javascript]] %>
+<$iconify icon="skill-icons:javascript" />
+<% elseif [<type>match[image/png]] %>
+<$iconify icon="vscode-icons:file-type-image" />
+<% elseif [<type>match[application/json]] %>
+<$iconify icon="carbon:json" />
+<% else %>
+<% endif %>
+</$set>
+
+<$list filter="[all[current]!is[system]]">
+<$select tiddler=<<currentTiddler>> field='type' default='text/markdown' class="lowercase appearance-none border-none m-0 bg-gray-100 dark:bg-black rounded p-0.5">
+<$list filter='[all[shadows+tiddlers]prefix[$:/language/Docs/Types/]each[group]sort[group]]'>
+<$list filter='[all[shadows+tiddlers]prefix[$:/language/Docs/Types/]group{!!group}] +[sort[description]]'>
+<option value={{!!name}}><$view field='description'><$view field='title'/></$view>
+</option>
+</$list>
+</$list>
+</$select>
+</$list>
+
+
+</div>
+</$reveal>

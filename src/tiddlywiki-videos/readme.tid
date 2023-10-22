@@ -1,0 +1,15 @@
+title: $:/plugins/oeyoews/tiddlywiki-videos/readme
+
+!! Tiddlywiki Videos
+
+!! Usage
+
+```wikitext
+<$video yid="o7GyFa90klg" />
+<$video bid='' />
+<$video url='' />
+```
+
+!! Ref
+
+* https://developers.google.com/youtube/player_parameters?hl=zh-cn
