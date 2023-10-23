@@ -1,0 +1,9 @@
+caption: Line numbers
+created: 20231023003822614
+description: whether or not the line numbers should be shown
+modified: 20231023003822614
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/lineNumbers
+type: text/vnd.tiddlywiki
+
+no

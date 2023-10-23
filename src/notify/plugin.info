@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/oeyoews/notify",
+  "name": "notify",
+  "author": "oeyoews",
+  "description": "simple notify",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}

@@ -8,6 +8,9 @@ dependencies:
   npm-check-updates:
     specifier: ^16.14.6
     version: 16.14.6
+  simple-notify:
+    specifier: ^0.5.5
+    version: 0.5.5
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3(ts-node@10.9.1)
@@ -5994,6 +5997,10 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /simple-notify@0.5.5:
+    resolution: {integrity: sha512-zsFPqTqoSOcAGdvT76NdxkceC0kKiRSLJLVD6fn2o2j17bwUMw3cl9f07aLmojAHeNzQRUeXNxYK4OCumIcC4g==}
     dev: false
 
   /sisteransi@1.0.5:

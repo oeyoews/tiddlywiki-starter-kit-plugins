@@ -1,0 +1,9 @@
+caption: Autocorrect
+created: 20231023003835367
+description: whether or not the "autocorrect" attribute should be set within the editor
+modified: 20231023003835367
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/autocorrect
+type: text/vnd.tiddlywiki
+
+yes

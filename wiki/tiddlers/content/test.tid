@@ -1,0 +1,12 @@
+created: 20231022235231156
+modified: 20231023004105935
+tags: 
+title: test
+type: text/vnd.tiddlywiki
+
+<$notify  text="ho" title="内容测试" effect="slide"  demo="dmeo" />
+
+<$button>
+	<$action-sendmessage $message="om-notify" title="this is a test" autoclose="false" />
+	hilee
+</$button>

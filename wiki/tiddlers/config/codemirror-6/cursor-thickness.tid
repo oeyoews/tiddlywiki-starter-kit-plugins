@@ -1,0 +1,9 @@
+caption: Cursor thickness
+created: 20231023003829047
+description: The thickness of the cursor
+modified: 20231023003829643
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/input
+title: $:/config/codemirror-6/cursor-thickness
+type: text/vnd.tiddlywiki
+
+2px
