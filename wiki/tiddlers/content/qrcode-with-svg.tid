@@ -1,0 +1,9 @@
+created: 20231029120532032
+modified: 20231029122342301
+tags: 
+title: qrcode-with-svg
+type: text/vnd.tiddlywiki
+
+<div class="spotlight">
+<$qrcode width=400 text="qrcode svg format" save=0 />
+</div>

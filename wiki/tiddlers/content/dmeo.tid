@@ -1,0 +1,10 @@
+created: 20231029114554089
+modified: 20231029120110533
+tags: 
+title: dmeo
+type: text/vnd.tiddlywiki
+
+[img class="spotlight w-48" [qrcode.svg]]
+
+<$qrcode width=512 />
+[[qrcode.svg]]

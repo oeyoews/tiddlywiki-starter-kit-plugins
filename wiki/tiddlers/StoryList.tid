@@ -1,3 +1,3 @@
-list: 2023/10/23 test GettingStarted
+list: $:/core/ui/ControlPanel/Plugins $:/plugins/oeyoews/qrcode $:/plugins/oeyoews/qrcode-widget.js GettingStarted
 title: $:/StoryList
 type: text/vnd.tiddlywiki

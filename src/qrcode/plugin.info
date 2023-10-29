@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/oeyoews/qrcode",
+  "name": "qrcode",
+  "author": "oeyoews",
+  "description": "",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}
