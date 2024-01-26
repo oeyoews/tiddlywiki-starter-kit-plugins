@@ -37,8 +37,8 @@ class MiniSearchWidget extends Widget {
     let results = miniSearch.search(text, {});
     console.log(results);
 
-    const createElement = $tw.utils.domMaker;
     const htmlNode = [];
+    // maybe to ejs template
     results.forEach(result => {
       htmlNode.push(
         `<h2>${result.title}</h2>` +
