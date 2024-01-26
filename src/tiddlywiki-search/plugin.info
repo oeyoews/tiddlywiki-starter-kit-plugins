@@ -1,6 +1,6 @@
 {
-  "title": "$:/plugins/oeyoews/qrcode",
-  "name": "qrcode",
+  "title": "$:/plugins/oeyoews/tiddlywiki-search",
+  "name": "tiddlywiki-search",
   "author": "oeyoews",
   "description": "",
   "plugin-type": "plugin",

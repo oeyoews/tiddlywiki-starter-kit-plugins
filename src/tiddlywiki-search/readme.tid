@@ -1,0 +1,13 @@
+title: $:/plugins/oeyoews/tiddlywiki-search/readme
+type: text/vnd.tiddlywiki
+
+! tiddlywiki-search
+
+
+!! TODO
+
+* 使用ejs 写ui
+* 中文分词器
+* terms 高亮
+* 支持图片预览， 虚假dom 报错处理
+* 截取部分片段

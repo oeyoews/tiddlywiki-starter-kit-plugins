@@ -1,0 +1,11 @@
+caption: {{$:/language/codemirror6/vimmode/caption}}
+caption-zh: {{$:/language/codemirror6/zh/vimmode/caption}}
+created: 20240126034851099
+description: {{$:/language/codemirror6/vimmode/description}}
+description-zh: {{$:/language/codemirror6/zh/vimmode/description}}
+modified: 20240126034851099
+settings-template: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/vimmode
+type: text/vnd.tiddlywiki
+
+yes
