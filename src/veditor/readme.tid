@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 
 * 渲染逻辑由vditor 接管， 无法兼容tiddlywiki 语法
 * api 少的可怜, 更像是 option config
+
+<$vditor />
