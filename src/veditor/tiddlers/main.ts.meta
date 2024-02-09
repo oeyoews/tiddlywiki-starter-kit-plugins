@@ -1,0 +1,4 @@
+module-type: widget
+title: vditor
+type: application/javascript
+hide-body: yes

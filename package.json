@@ -31,26 +31,29 @@
     ]
   },
   "devDependencies": {
-    "@modern-js/eslint-config": "^2.39.0",
-    "@modern-js/tsconfig": "^2.39.0",
-    "@types/node": "^20.8.9",
+    "@modern-js/eslint-config": "^2.46.1",
+    "@modern-js/tsconfig": "^2.46.1",
+    "@types/node": "^20.11.13",
     "husky": "^8.0.3",
-    "lint-staged": "^15.0.2",
-    "postcss": "^8.4.31",
+    "lint-staged": "^15.2.1",
+    "postcss": "^8.4.33",
     "rimraf": "^5.0.5",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "tw5-typed": "^0.3.11",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.3",
+    "vditor": "^3.9.9"
   },
   "dependencies": {
-    "@types/qrcode": "^1.5.4",
+    "@types/qrcode": "^1.5.5",
+    "mermaid": "11.0.0-alpha.4",
     "minisearch": "^6.3.0",
-    "npm-check-updates": "^16.14.6",
+    "npm-check-updates": "^16.14.14",
     "qrcode": "1.5.3",
     "simple-notify": "^0.5.5",
-    "tailwindcss": "^3.3.5",
+    "tailwindcss": "^3.4.1",
     "tiddlywiki": "github:Jermolene/TiddlyWiki5#c93d56667e9382bb72a490d1ec21f3ca59c49ce6",
     "tiddlywiki-plugin-dev": "^0.0.39",
-    "vue": "^3.3.11"
+    "twemoji": "^14.0.2",
+    "vue": "^3.4.15"
   }
 }

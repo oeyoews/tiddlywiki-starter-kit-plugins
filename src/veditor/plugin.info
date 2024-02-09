@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/oeyoews/veditor",
+  "name": "veditor",
+  "author": "oeyoews",
+  "description": "",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}

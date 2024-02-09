@@ -1,0 +1,12 @@
+title: $:/plugins/oeyoews/veditor/readme
+type: text/vnd.tiddlywiki
+
+!! veditor
+
+另一款 Markdown Editor: Vditor, 支持所见即所得， 分屏预览，即使渲染多种模式
+
+
+> ~~刚开始移植到tiddlywiki~~ 放弃, 思源笔记用的应该就是这个editor!
+
+* 渲染逻辑由vditor 接管， 无法兼容tiddlywiki 语法
+* api 少的可怜, 更像是 option config
